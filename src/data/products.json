@@ -1,0 +1,326 @@
+[
+  {
+    "id": "barca-2024-home",
+    "title_en": "FC Barcelona 2024 Home Jersey",
+    "title_bn": "এফসি বার্সেলোনা ২০২৪ হোম জার্সি",
+    "slug": "barcelona-2024-home",
+    "price_bdt": 1799,
+    "original_price": 2199,
+    "discount": 18,
+    "images": [
+      "/jerseys/barca-home-1.webp",
+      "/jerseys/barca-home-2.webp"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "stock": {
+      "S": 5,
+      "M": 12,
+      "L": 8,
+      "XL": 3
+    },
+    "description_en": "Official 2024 FC Barcelona home jersey with authentic design and premium quality fabric. Features the iconic club crest and sponsor logos.",
+    "description_bn": "অফিসিয়াল ২০২ৄ এফসি বার্সেলোনা হোম জার্সি অথেনটিক ডিজাইন এবং প্রিমিয়াম কোয়ালিটি ফ্যাব্রিক সহ।",
+    "tags": ["Barcelona", "New Arrival", "Authentic"],
+    "category": "Barcelona",
+    "available": true,
+    "weight_kg": 0.3,
+    "release_date": "2024-05-15"
+  },
+  {
+    "id": "barca-2024-away",
+    "title_en": "FC Barcelona 2024 Away Jersey",
+    "title_bn": "এফসি বার্সেলোনা ২০২ৄ অ্যাওয়ে জার্সি",
+    "slug": "barcelona-2024-away",
+    "price_bdt": 1799,
+    "original_price": 2199,
+    "discount": 18,
+    "images": [
+      "/jerseys/barca-away-1.webp",
+      "/jerseys/barca-away-2.webp"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "stock": {
+      "S": 8,
+      "M": 15,
+      "L": 6,
+      "XL": 4
+    },
+    "description_en": "Official 2024 FC Barcelona away jersey with stunning design and high-quality materials.",
+    "description_bn": "অফিসিয়াল ২০২ৄ এফসি বার্সেলোনা অ্যাওয়ে জার্সি স্টানিং ডিজাইন এবং উচ্চ মানের ম্যাটেরিয়াল সহ।",
+    "tags": ["Barcelona", "Away", "Popular"],
+    "category": "Barcelona",
+    "available": true,
+    "weight_kg": 0.3,
+    "release_date": "2024-05-20"
+  },
+  {
+    "id": "real-2024-home",
+    "title_en": "Real Madrid 2024 Home Jersey",
+    "title_bn": "রিয়াল মাদ্রিদ ২০২ৄ হোম জার্সি",
+    "slug": "real-madrid-2024-home",
+    "price_bdt": 1799,
+    "original_price": 2299,
+    "discount": 22,
+    "images": [
+      "/jerseys/real-home-1.webp",
+      "/jerseys/real-home-2.webp"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "stock": {
+      "S": 7,
+      "M": 10,
+      "L": 12,
+      "XL": 5
+    },
+    "description_en": "Official 2024 Real Madrid home jersey with classic white design and premium construction.",
+    "description_bn": "অফিসিয়াল ২০২ৄ রিয়াল মাদ্রিদ হোম জার্সি ক্লাসিক সাদা ডিজাইন এবং প্রিমিয়াম কনস্ট্রাকশন সহ।",
+    "tags": ["Real Madrid", "Classic", "Best Seller"],
+    "category": "Real Madrid",
+    "available": true,
+    "weight_kg": 0.3,
+    "release_date": "2024-05-10"
+  },
+  {
+    "id": "real-2024-away",
+    "title_en": "Real Madrid 2024 Away Jersey",
+    "title_bn": "রিয়াল মাদ্রিদ ২০২ৄ অ্যাওয়ে জার্সি",
+    "slug": "real-madrid-2024-away",
+    "price_bdt": 1799,
+    "original_price": 2299,
+    "discount": 22,
+    "images": [
+      "/jerseys/real-away-1.webp",
+      "/jerseys/real-away-2.webp"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "stock": {
+      "S": 9,
+      "M": 8,
+      "L": 11,
+      "XL": 6
+    },
+    "description_en": "Official 2024 Real Madrid away jersey with unique design and superior fabric quality.",
+    "description_bn": "অফিসিয়াল ২০২ৄ রিয়াল মাদ্রিদ অ্যাওয়ে জার্সি ইউনিক ডিজাইন এবং সুপেরিয়র ফ্যাব্রিক কোয়ালিটি সহ।",
+    "tags": ["Real Madrid", "Away", "Premium"],
+    "category": "Real Madrid",
+    "available": true,
+    "weight_kg": 0.3,
+    "release_date": "2024-05-25"
+  },
+  {
+    "id": "argentina-2024",
+    "title_en": "Argentina 2024 National Team Jersey",
+    "title_bn": "আর্জেন্টিনা ২০২ৄ জাতীয় দল জার্সি",
+    "slug": "argentina-2024-national",
+    "price_bdt": 1650,
+    "original_price": 1950,
+    "discount": 15,
+    "images": [
+      "/jerseys/argentina-1.webp",
+      "/jerseys/argentina-2.webp"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "stock": {
+      "S": 12,
+      "M": 18,
+      "L": 14,
+      "XL": 8
+    },
+    "description_en": "Official Argentina national team jersey with iconic blue and white stripes.",
+    "description_bn": "অফিসিয়াল আর্জেন্টিনা জাতীয় দল জার্সি আইকনিক নীল এবং সাদা ডোরা সহ।",
+    "tags": ["National Team", "Argentina", "World Cup"],
+    "category": "Travel Shirt",
+    "available": true,
+    "weight_kg": 0.28,
+    "release_date": "2024-04-15"
+  },
+  {
+    "id": "brazil-2024",
+    "title_en": "Brazil 2024 National Team Jersey",
+    "title_bn": "ব্রাজিল ২০২ৄ জাতীয় দল জার্সি",
+    "slug": "brazil-2024-national",
+    "price_bdt": 1650,
+    "original_price": 1950,
+    "discount": 15,
+    "images": [
+      "/jerseys/brazil-1.webp",
+      "/jerseys/brazil-2.webp"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "stock": {
+      "S": 10,
+      "M": 16,
+      "L": 12,
+      "XL": 7
+    },
+    "description_en": "Official Brazil national team jersey with vibrant yellow design and authentic detailing.",
+    "description_bn": "অফিসিয়াল ব্রাজিল জাতীয় দল জার্সি জীবন্ত হলুদ ডিজাইন এবং অথেনটিক বিস্তারিত সহ।",
+    "tags": ["National Team", "Brazil", "Vibrant"],
+    "category": "Travel Shirt",
+    "available": true,
+    "weight_kg": 0.28,
+    "release_date": "2024-04-20"
+  },
+  {
+    "id": "psg-2024-home",
+    "title_en": "PSG 2024 Home Jersey",
+    "title_bn": "পিএসজি ২০২ৄ হোম জার্সি",
+    "slug": "psg-2024-home",
+    "price_bdt": 1699,
+    "original_price": 2099,
+    "discount": 19,
+    "images": [
+      "/jerseys/psg-home-1.webp",
+      "/jerseys/psg-home-2.webp"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "stock": {
+      "S": 6,
+      "M": 13,
+      "L": 9,
+      "XL": 4
+    },
+    "description_en": "Official PSG home jersey with elegant navy blue design and premium finish.",
+    "description_bn": "অফিসিয়াল পিএসজি হোম জার্সি এলিগ্যান্ট নেভি ব্লু ডিজাইন এবং প্রিমিয়াম ফিনিশ সহ।",
+    "tags": ["PSG", "Elegant", "French League"],
+    "category": "Club Jersey 24/25 kit",
+    "available": true,
+    "weight_kg": 0.32,
+    "release_date": "2024-05-05"
+  },
+  {
+    "id": "manchester-united-retro",
+    "title_en": "Manchester United Retro Jersey 1999",
+    "title_bn": "ম্যানচেস্টার ইউনাইটেড রেট্রো জার্সি ১৯৯৯",
+    "slug": "manchester-united-retro-1999",
+    "price_bdt": 1850,
+    "original_price": 2250,
+    "discount": 18,
+    "images": [
+      "/jerseys/united-retro-1.webp",
+      "/jerseys/united-retro-2.webp"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "stock": {
+      "S": 4,
+      "M": 8,
+      "L": 6,
+      "XL": 3
+    },
+    "description_en": "Classic Manchester United retro jersey from the treble-winning 1999 season. Limited edition.",
+    "description_bn": "ক্লাসিক ম্যানচেস্টার ইউনাইটেড রেট্রো জার্সি ট্রেবল বিজয়ী ১৯৯৯ সিজন থেকে। লিমিটেড এডিশন।",
+    "tags": ["Manchester United", "Retro", "Limited Edition", "Treble"],
+    "category": "Retro Jersey Collection",
+    "available": true,
+    "weight_kg": 0.35,
+    "release_date": "2024-04-01"
+  },
+  {
+    "id": "liverpool-2024-home",
+    "title_en": "Liverpool 2024 Home Jersey",
+    "title_bn": "লিভারপুল ২০২ৄ হোম জার্সি",
+    "slug": "liverpool-2024-home",
+    "price_bdt": 1750,
+    "original_price": 2150,
+    "discount": 19,
+    "images": [
+      "/jerseys/liverpool-home-1.webp",
+      "/jerseys/liverpool-home-2.webp"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "stock": {
+      "S": 8,
+      "M": 14,
+      "L": 10,
+      "XL": 5
+    },
+    "description_en": "Official Liverpool home jersey with iconic red color and modern design elements.",
+    "description_bn": "অফিসিয়াল লিভারপুল হোম জার্সি আইকনিক লাল রঙ এবং আধুনিক ডিজাইন এলিমেন্ট সহ।",
+    "tags": ["Liverpool", "Red", "Premier League"],
+    "category": "Club Jersey 24/25 kit",
+    "available": true,
+    "weight_kg": 0.31,
+    "release_date": "2024-05-12"
+  },
+  {
+    "id": "chelsea-2024-third",
+    "title_en": "Chelsea 2024 Third Jersey",
+    "title_bn": "চেলসি ২০২ৄ থার্ড জার্সি",
+    "slug": "chelsea-2024-third",
+    "price_bdt": 1750,
+    "original_price": 2150,
+    "discount": 19,
+    "images": [
+      "/jerseys/chelsea-third-1.webp",
+      "/jerseys/chelsea-third-2.webp"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "stock": {
+      "S": 7,
+      "M": 11,
+      "L": 9,
+      "XL": 4
+    },
+    "description_en": "Chelsea's striking third jersey with unique colorway and contemporary design.",
+    "description_bn": "চেলসির আকর্ষণীয় থার্ড জার্সি ইউনিক কালারওয়ে এবং সমসাময়িক ডিজাইন সহ।",
+    "tags": ["Chelsea", "Third Kit", "Unique"],
+    "category": "Club Jersey 24/25 kit",
+    "available": true,
+    "weight_kg": 0.31,
+    "release_date": "2024-05-18"
+  },
+  {
+    "id": "ac-milan-2024",
+    "title_en": "AC Milan 2024 Home Jersey",
+    "title_bn": "এসি মিলান ২০২ৄ হোম জার্সি",
+    "slug": "ac-milan-2024-home",
+    "price_bdt": 1699,
+    "original_price": 2099,
+    "discount": 19,
+    "images": [
+      "/jerseys/milan-home-1.webp",
+      "/jerseys/milan-home-2.webp"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "stock": {
+      "S": 5,
+      "M": 9,
+      "L": 7,
+      "XL": 3
+    },
+    "description_en": "Iconic AC Milan home jersey with classic red and black stripes. Serie A elegance.",
+    "description_bn": "আইকনিক এসি মিলান হোম জার্সি ক্লাসিক লাল এবং কালো ডোরা সহ। সেরি এ এলিগ্যান্স।",
+    "tags": ["AC Milan", "Classic", "Serie A", "Stripes"],
+    "category": "Club Jersey 24/25 kit",
+    "available": true,
+    "weight_kg": 0.30,
+    "release_date": "2024-05-08"
+  },
+  {
+    "id": "bayern-munich-2024",
+    "title_en": "Bayern Munich 2024 Home Jersey",
+    "title_bn": "বায়ার্ন মিউনিখ ২০২ৄ হোম জার্সি",
+    "slug": "bayern-munich-2024-home",
+    "price_bdt": 1799,
+    "original_price": 2199,
+    "discount": 18,
+    "images": [
+      "/jerseys/bayern-home-1.webp",
+      "/jerseys/bayern-home-2.webp"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "stock": {
+      "S": 6,
+      "M": 12,
+      "L": 8,
+      "XL": 4
+    },
+    "description_en": "Official Bayern Munich home jersey with traditional red design and Bundesliga quality.",
+    "description_bn": "অফিসিয়াল বায়ার্ন মিউনিখ হোম জার্সি ঐতিহ্যবাহী লাল ডিজাইন এবং বুন্দেসলিগা কোয়ালিটি সহ।",
+    "tags": ["Bayern Munich", "German", "Bundesliga", "Traditional"],
+    "category": "Club Jersey 24/25 kit",
+    "available": true,
+    "weight_kg": 0.32,
+    "release_date": "2024-05-03"
+  }
+]
