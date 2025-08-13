@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Home, Search, ShoppingCart } from 'lucide-react';
 import { useCart } from '@/contexts/CartContext';
+import { motion } from 'framer-motion';
 
 const BottomNavigation = () => {
   const { getTotalItems } = useCart();
@@ -11,25 +12,28 @@ const BottomNavigation = () => {
   return (
     <div className="fixed bottom-0 left-0 right-0 bg-background border-t shadow-lg md:hidden z-40">
       <div className="grid grid-cols-3">
-        <Button
-          variant="ghost"
-          className="h-16 rounded-none flex-col gap-1 text-xs"
+        <motion.button
+          whileTap={{ scale: 0.95 }}
+          className="h-16 rounded-none flex-col gap-1 text-xs hover:bg-accent hover:text-accent-foreground transition-colors duration-200 flex items-center justify-center"
+          onClick={() => window.location.href = '/'}
         >
           <Home className="h-5 w-5" />
           <span>Home</span>
-        </Button>
+        </motion.button>
         
-        <Button
-          variant="ghost"
-          className="h-16 rounded-none flex-col gap-1 text-xs"
+        <motion.button
+          whileTap={{ scale: 0.95 }}
+          className="h-16 rounded-none flex-col gap-1 text-xs hover:bg-accent hover:text-accent-foreground transition-colors duration-200 flex items-center justify-center"
+          onClick={() => {/* TODO: Implement search */}}
         >
           <Search className="h-5 w-5" />
           <span>Search</span>
-        </Button>
+        </motion.button>
         
-        <Button
-          variant="ghost"
-          className="h-16 rounded-none flex-col gap-1 text-xs relative"
+        <motion.button
+          whileTap={{ scale: 0.95 }}
+          className="h-16 rounded-none flex-col gap-1 text-xs relative hover:bg-accent hover:text-accent-foreground transition-colors duration-200 flex items-center justify-center"
+          onClick={() => {/* TODO: Implement cart page */}}
         >
           <div className="relative">
             <ShoppingCart className="h-5 w-5" />
@@ -40,7 +44,7 @@ const BottomNavigation = () => {
             )}
           </div>
           <span>Cart</span>
-        </Button>
+        </motion.button>
       </div>
     </div>
   );

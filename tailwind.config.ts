@@ -73,7 +73,8 @@ export default {
 				discount: 'hsl(var(--discount))',
 				whatsapp: {
 					DEFAULT: 'hsl(var(--whatsapp))',
-					foreground: 'hsl(var(--whatsapp-foreground))'
+					foreground: 'hsl(var(--whatsapp-foreground))',
+					hover: 'hsl(var(--whatsapp-hover))'
 				},
 				telegram: {
 					DEFAULT: 'hsl(var(--telegram))',
@@ -111,11 +112,19 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0px)' },
+					'50%': { transform: 'translateY(-10px)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 3s ease-in-out infinite'
+			},
+			spacing: {
+				'touch': '48px'
 			}
 		}
 	},

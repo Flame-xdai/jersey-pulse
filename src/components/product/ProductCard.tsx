@@ -8,6 +8,8 @@ import { ShoppingCart, Zap, Heart } from 'lucide-react';
 import { Product } from '@/types/product';
 import { useCart } from '@/contexts/CartContext';
 import { cn } from '@/lib/utils';
+import { motion } from 'framer-motion';
+import { useRecentProducts } from '@/hooks/useRecentProducts';
 
 interface ProductCardProps {
   product: Product;
@@ -18,6 +20,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, className }) => {
   const [selectedSize, setSelectedSize] = useState<string>(product.sizes[0] || 'M');
   const [isLoading, setIsLoading] = useState(false);
   const { addToCart } = useCart();
+  const { addRecentProduct } = useRecentProducts();
 
   const formatPrice = (price: number) => {
     return `৳${price.toLocaleString()}`;
@@ -48,14 +51,28 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, className }) => {
     return stock > 0 && stock <= 3;
   };
 
+  const handleCardClick = () => {
+    addRecentProduct(product.id);
+    // TODO: Navigate to product page when routing is implemented
+    console.log('Navigate to:', `/product/${product.id}`);
+  };
+
   return (
-    <Card className={cn(
-      "group cursor-pointer transition-all duration-300 hover:shadow-lg hover:-translate-y-1 product-card-mobile",
-      className
-    )}>
-      <CardContent className="p-0">
-        {/* Image Container */}
-        <div className="relative overflow-hidden rounded-t-lg aspect-square">
+    <motion.div
+      whileHover={{ y: -4 }}
+      whileTap={{ scale: 0.98 }}
+      transition={{ duration: 0.2 }}
+    >
+      <Card className={cn(
+        "group cursor-pointer transition-all duration-300 hover:shadow-lg product-card-mobile",
+        className
+      )}>
+        <CardContent className="p-0">
+          {/* Image Container */}
+          <div 
+            className="relative overflow-hidden rounded-t-lg aspect-square"
+            onClick={handleCardClick}
+          >
           <img
             src={product.images[0]}
             alt={product.title_en}
@@ -185,6 +202,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, className }) => {
         </div>
       </CardContent>
     </Card>
+    </motion.div>
   );
 };
 

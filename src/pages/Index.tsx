@@ -6,6 +6,9 @@ import HeroSection from '@/components/sections/HeroSection';
 import ProductGrid from '@/components/product/ProductGrid';
 import WhatsAppFloat from '@/components/layout/WhatsAppFloat';
 import BottomNavigation from '@/components/layout/BottomNavigation';
+import FloatingCart from '@/components/layout/FloatingCart';
+import ProductCarousel from '@/components/product/ProductCarousel';
+import { useRecentProducts } from '@/hooks/useRecentProducts';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Product } from '@/types/product';
@@ -15,6 +18,7 @@ import productsData from '@/data/products.json';
 const Index = () => {
   const [products, setProducts] = useState<Product[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
+  const { getRecentProducts } = useRecentProducts();
 
   useEffect(() => {
     setProducts(productsData as Product[]);
@@ -32,6 +36,8 @@ const Index = () => {
   const filteredProducts = selectedCategory === 'all' 
     ? products 
     : products.filter(product => product.category === selectedCategory);
+  
+  const recentProducts = getRecentProducts(products);
 
   return (
     <CartProvider>
@@ -85,6 +91,16 @@ const Index = () => {
                   <p className="text-muted-foreground">No products found in this category.</p>
                 </div>
               )}
+              
+              {/* Recent Products */}
+              {recentProducts.length > 0 && (
+                <div className="mt-16">
+                  <ProductCarousel 
+                    products={recentProducts}
+                    title="Recently Viewed"
+                  />
+                </div>
+              )}
             </div>
           </section>
 
@@ -126,6 +142,7 @@ const Index = () => {
           </section>
         </main>
 
+        <FloatingCart />
         <WhatsAppFloat />
         <BottomNavigation />
         

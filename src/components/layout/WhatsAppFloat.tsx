@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button } from '@/components/ui/button';
-import { MessageCircle } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
+import { motion } from 'framer-motion';
 
 const WhatsAppFloat = () => {
   const handleWhatsAppClick = () => {
@@ -11,16 +11,16 @@ const WhatsAppFloat = () => {
   };
 
   return (
-    <div className="fixed bottom-6 right-6 z-50">
-      <Button
-        variant="floating"
-        size="floating"
+    <div className="fixed bottom-24 right-4 z-50 md:bottom-6 md:right-6">
+      <motion.button
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.95 }}
         onClick={handleWhatsAppClick}
-        className="shadow-2xl"
+        className="bg-[#25D366] hover:bg-[#128C7E] text-white p-3 rounded-full shadow-2xl flex items-center justify-center w-14 h-14 transition-colors duration-200"
         aria-label="Contact us on WhatsApp"
       >
-        <MessageCircle className="h-6 w-6" />
-      </Button>
+        <FaWhatsapp className="w-8 h-8" />
+      </motion.button>
     </div>
   );
 };

@@ -62,9 +62,10 @@
     --price-original: 0 0% 50%;
     --discount: 0 84% 60%;
 
-    /* WhatsApp Green */
+    /* WhatsApp Green - Official Colors */
     --whatsapp: 142 70% 49%;
     --whatsapp-foreground: 0 0% 100%;
+    --whatsapp-hover: 142 85% 35%;
 
     /* Telegram Blue */
     --telegram: 207 90% 54%;
