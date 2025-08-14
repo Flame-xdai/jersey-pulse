@@ -33,7 +33,7 @@ const BottomNavigation = () => {
         <motion.button
           whileTap={{ scale: 0.95 }}
           className="h-16 rounded-none flex-col gap-1 text-xs relative hover:bg-accent hover:text-accent-foreground transition-colors duration-200 flex items-center justify-center"
-          onClick={() => {/* TODO: Implement cart page */}}
+          onClick={() => window.location.href = '/cart'}
         >
           <div className="relative">
             <ShoppingCart className="h-5 w-5" />

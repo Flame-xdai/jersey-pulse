@@ -16,7 +16,7 @@ const FloatingCart = () => {
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
         className="bg-primary text-primary-foreground p-3 rounded-full shadow-2xl flex items-center justify-center w-14 h-14 relative"
-        onClick={() => {/* TODO: Navigate to cart */}}
+        onClick={() => window.location.href = '/cart'}
         aria-label="View cart"
       >
         <ShoppingCart className="w-6 h-6" />

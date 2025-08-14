@@ -38,8 +38,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, className }) => {
 
   const handleBuyNow = () => {
     addToCart(product, selectedSize);
-    // Navigate to checkout (implement later)
-    console.log('Buy now:', product.title_en, selectedSize);
+    window.location.href = '/cart';
   };
 
   const isOutOfStock = (size: string) => {
@@ -53,8 +52,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, className }) => {
 
   const handleCardClick = () => {
     addRecentProduct(product.id);
-    // TODO: Navigate to product page when routing is implemented
-    console.log('Navigate to:', `/product/${product.id}`);
+    window.location.href = `/product/${product.slug}`;
   };
 
   return (
