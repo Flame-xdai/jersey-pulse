@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
-    allowedHosts: ["*"], // ✅ Fix for Render
+    allowedHosts: ["https://jersey-aurafc.onrender.com/"], // ✅ Fix for Render
   },
   plugins: [
     react(),
